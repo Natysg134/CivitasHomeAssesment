@@ -45,6 +45,23 @@ running on port: 5250 and swagger will be propmted, as follow:
    ```
 5. Wait for the app tu start on the browser
 
+*There's a docker file for every solution, but is not working, an ERR:Connection error is happening when try to connect to the DB.
+
 ## Testing the funciontality
 
-1. 
+1. When you first loading the app, if you already run the Database script, you should see a record on the table.
+The table looks like this 
+![Results table](https://github.com/Natysg134/CivitasHomeAssesment/blob/332cff147902978523a013c381474686c4b777ad/media/TableResults.png?raw=true)
+2. A  for the Loading State, to show the user that the app is busy at the moment. 
+![LoadingState](https://github.com/Natysg134/CivitasHomeAssesment/blob/332cff147902978523a013c381474686c4b777ad/media/loadingState.png?raw=true)
+3. For the Create a New Course click on the blue button on the botton left corner and a modal will be display:
+![LoadingState](https://github.com/Natysg134/CivitasHomeAssesment/blob/332cff147902978523a013c381474686c4b777ad/media/createNewVal.png?raw=true)
+Here's a validation if the Course Number has more than 3 characters, if it has less than 3 it will be formatted as a three-digit, zero-padded 
+integer like "33" => "033".
+4. There's also a validation for duplicated courses, you cannot repeat CourseNumber or Subject
+![LoadingState](https://github.com/Natysg134/CivitasHomeAssesment/blob/332cff147902978523a013c381474686c4b777ad/media/DuplicateVal.png?raw=true)
+5. The application allows the user to search for a course by description, with partial matches like "Stat" will show "Business Statistics" and 
+"Med Stats". To clean Search, just leave the inpunt in blank and press search, all available data will be fetch.
+![LoadingState](https://github.com/Natysg134/CivitasHomeAssesment/blob/332cff147902978523a013c381474686c4b777ad/media/searchResults.png?raw=true)
+6. To delete a course, just click on the Delete Button
+7. Additionally there's an update description funtionality, that opens a modal and you can edit tha field.
