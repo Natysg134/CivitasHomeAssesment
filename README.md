@@ -44,3 +44,7 @@ running on port: 5250 and swagger will be propmted, as follow:
    npm start
    ```
 5. Wait for the app tu start on the browser
+
+## Testing the funciontality
+
+1. 
