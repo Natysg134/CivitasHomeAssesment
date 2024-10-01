@@ -52,7 +52,7 @@ running on port: 5250 and swagger will be propmted, as follow:
 1. When you first loading the app, if you already run the Database script, you should see a record on the table.
 The table looks like this 
 ![Results table](https://github.com/Natysg134/CivitasHomeAssesment/blob/332cff147902978523a013c381474686c4b777ad/media/TableResults.png?raw=true)
-2. A  for the Loading State, to show the user that the app is busy at the moment. 
+2. A Spinner was added for the Loading State, to show the user that the app is busy at the moment. 
 ![LoadingState](https://github.com/Natysg134/CivitasHomeAssesment/blob/332cff147902978523a013c381474686c4b777ad/media/loadingState.png?raw=true)
 3. For the Create a New Course click on the blue button on the botton left corner and a modal will be display:
 ![LoadingState](https://github.com/Natysg134/CivitasHomeAssesment/blob/332cff147902978523a013c381474686c4b777ad/media/createNewVal.png?raw=true)
