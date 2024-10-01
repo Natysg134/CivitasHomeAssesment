@@ -31,7 +31,7 @@ To run this project on your local machine follow the steps:
 ..\CivitasHomeAssesment\backEnd. Build and run the application. Once The BackEnd is up, it'll be
 running on port: 5250 and swagger will be propmted, as follow:
 
-![Swagger](https://github.com/Natysg134/CivitasHomeAssesment.git/media/swagger.png?raw=true)
+![Swagger](https://github.com/Natysg134/CivitasHomeAssesment/blob/635e2c2ba6c682712d6485cf54dd891bd51e81ff/media/swagger.png?raw=true)
 
 4. For the Front End Solution, open the folder located at ..\CivitasHomeAssesment\frontEnd. 
 5. Open a console, navigate to the folder path.
