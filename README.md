@@ -20,14 +20,6 @@ This is a small application that manages courses
 
 To run this project on your local machine follow the steps:
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
 1. Clone the repo
@@ -38,6 +30,8 @@ This is an example of how to list things you need to use the software and how to
 3. For the back end solution, on a visual code/visual studio editor open the folder located at 
 ..\CivitasHomeAssesment\backEnd. Build and run the application. Once The BackEnd is up, it'll be
 running on port: 5250 and swagger will be propmted, as follow:
+
+![Swagger](https://github.com/Natysg134/CivitasHomeAssesment.git/media/swagger.png?raw=true)
 
 4. For the Front End Solution, open the folder located at ..\CivitasHomeAssesment\frontEnd. 
 5. Open a console, navigate to the folder path.
